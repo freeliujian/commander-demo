@@ -1,12 +1,12 @@
 {
-  "name": "step-git-zx",
+  "name": "commander-demo",
   "version": "1.0.0",
   "description": "use commander demo",
   "type": "module",
   "main": "./index.mjs",
-  "bin": "step-git-zx",
+  "bin": "commander-demo",
   "scripts": {
-    "deploy": "node ./index.mjs"
+    "start": "node ./index.mjs"
   },
   "keywords": [
     "zx"
