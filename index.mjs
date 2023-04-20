@@ -6,7 +6,6 @@ import pkg  from './package.json' assert { type: 'json' };
 program.version(pkg.version);
 
 const existHandle = (value) => {
-  console.log(value,prev)
   const newValue = `111${value}`;
   return newValue;
 }
@@ -36,6 +35,3 @@ program.parse(process.argv);
 const options = program.opts();
 //program.getOptionValue('eeexist')
 console.log(options);
-
-
-

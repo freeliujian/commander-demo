@@ -4,7 +4,9 @@
   "description": "use commander demo",
   "type": "module",
   "main": "./index.mjs",
-  "bin": "commander-demo",
+  "bin": {
+    "commander-demo": "./index.mjs"
+  },
   "scripts": {
     "start": "node ./index.mjs"
   },
